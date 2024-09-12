@@ -1,0 +1,23 @@
+.footer {
+  grid-area: footer;
+  background-color: #0067A3;
+  color: white;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.footer__line {
+  display: flex;
+  gap: 10px;
+
+}
+
+@media screen and (max-width: 576px) {
+  .footer {
+    display: none;
+  }
+  
+}

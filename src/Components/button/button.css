@@ -1,0 +1,48 @@
+
+.btn {
+  width: 102px;
+  height: 29px;
+  cursor: pointer;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 10px;  
+  font-size: 18px;
+  background-color: inherit;
+  margin: 10px;
+  padding: auto;
+}
+
+.btn-add {
+  color: #5E6C84;
+}
+.btn-add:hover {
+  background-color: #ffffff;
+}
+
+.btn-submit {
+  background-color: #0079BF;
+  color: #ffffff;
+
+}
+
+button:disabled {
+  border: none;
+  cursor: auto;
+}
+
+@media screen and (max-width: 768px) {
+
+  .btn{
+    /* font-size: 16px; */
+    margin-top: 5px;
+  }
+  
+}
+
+@media screen and (max-width: 576px) {
+  .btn{
+    /* font-size: 14px; */
+    margin-top: 5px;
+  }
+}
